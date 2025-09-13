@@ -1,3 +1,4 @@
+document.querySelector('video').playbackRate = 16.0;
 console.log('Starting dynamic video autoplay...');
 
 function findCurrentVideo() {
@@ -160,4 +161,5 @@ setInterval(() => {
 
 console.log('Dynamic video autoplay system loaded!');
 console.log('This will work even if video IDs change');
+
 
